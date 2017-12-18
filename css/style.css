@@ -1,0 +1,138 @@
+/*these are classes, put in class declaration*/
+<!--just for the About and data html sheets-->
+
+.navbar,
+.navbar-collapse,
+.navbar-brand,
+.nav,
+#aboutlink,
+#print-link,
+.navbar-header {
+    background: #f0ad00;
+    color: #ffffff;
+    text-align: right;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff !important;
+}
+
+#menu a.active, #menu a:hover ,.nav>li>a:focus, .nav>li>a:hover{
+    transition-property: background-color, color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    background-color: #f0ad00;
+    color: #fff;
+  }
+
+#print-link {
+   pointer-events: none;
+    cursor: default;
+ }
+
+
+.ccusa_container{
+  padding-top: 12em;
+  padding-left: 12em;
+  padding-right: 12em;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  text-align: justify;
+  background-color: white;
+}
+
+.jumbotron {
+  background-color: black;
+  border: 2px solid black;
+  text-align: center;
+  height: 450px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10em;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin-bottom: 10px;
+}
+
+/*-- # = ids -*/
+
+html, body {
+    height: 0%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    background-color: white;
+    color: black;
+}
+
+
+h2, h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+
+p {
+    margin: 10px;
+    text-align: left;
+}
+
+
+a.header1 {
+   font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+      color: #fff;
+}
+
+a.body1{
+    color: purple;
+}
+
+
+
+hr {
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+}
+.closeinfo {
+    padding-top: 8em;
+    padding-left: 8em;
+    padding-right: 8em;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 300px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
